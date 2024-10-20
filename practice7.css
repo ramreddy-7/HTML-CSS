@@ -1,0 +1,10 @@
+div{
+    height: 300px;
+    width:300px;
+    background-image: url(drive.jpg.jpg);
+    background-size: cover;
+    position:fixed;
+    right: 2px;
+    bottom: 10px;
+
+}

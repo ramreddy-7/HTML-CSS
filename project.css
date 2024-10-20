@@ -1,0 +1,136 @@
+*{
+     margin: 0px;
+    border:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+};
+.nav-logo{
+    height:50px;
+    width: 113px;
+}
+.logo{
+    height: 50px;
+    width: 113px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    
+}
+.border{
+    border:2px solid black;
+}
+.border:hover{
+    border:2px solid white; 
+}
+
+    
+
+.deliver{
+    font-size: 12px;
+    color:#cccccc;
+    margin-left: 15px;
+}
+.india{
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 3px;
+}
+.location{
+    display: flex;
+    align-items: center;
+}
+
+.searchbox{
+    display: flex;
+    height: 40px;
+    width: 650px ;
+    background-color: orange;
+    border-radius: 4px;
+}
+.select{
+    color:#0f1111;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+.search{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+}
+.icon{
+    width: 40px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0f1111;
+    font-size: large;
+
+}
+span{
+    font-size: 12px;
+    color:white;
+}
+.accounts{
+    font-size: 14px;
+    color:white;
+    font-weight: 700;
+}
+.cart-icon{
+    color: white;
+    font-weight: 700;
+    font-size: small;
+}
+.cart-icon i{
+    font-size: 30px;
+    color: azure;
+}
+.panel{
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    height:40px;
+    font-size: 14px;
+    align-items: center;
+}
+.panel-bar{
+     margin-left: 15px;
+}
+.panel-options p{
+    display: inline;
+    width:100%;
+    margin-left: 15px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.Hero{
+    height: 400px;
+    background-color: #0f1111;
+    background-image: url("image_1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-section{
+    height: 40px;
+    width: 85%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+

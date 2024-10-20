@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: aqua;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+
+    padding-left: 5%;
+    padding-top: 5%;          /*   padding : 5%  */
+    padding-bottom: 5%;       /*  padding : 1px 2px 3px 4px  */
+    padding-right: 5%;
+
+
+    /* margin-bottom: 5%; */
+    margin: 5%;
+    /* border-radius: 10px; */
+    border-radius: 10%;
+
+}
+p{
+    height: 100px;
+    width:700px;
+    background-color: blue;
+
+}
+h1{
+    height:50px;
+    width:400px;
+    background-color: green;
+    /*border-style: dotted;
+    border-color: brown;*/
+    border:10px dotted brown
+}

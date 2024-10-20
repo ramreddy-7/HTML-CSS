@@ -1,0 +1,12 @@
+*{
+    color: white;
+}
+div{
+    background-color: black;
+    height:50px;
+    width: 1300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}

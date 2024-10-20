@@ -1,0 +1,53 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    
+
+    /* animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate; */
+    animation: color 5s ease-in 0s infinite alternate ;
+}
+p{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top:300px;
+    animation: m 5s ease-in 0s infinite alternate ;
+
+}
+@keyframes color{
+    from{
+        left:0px ;
+        background-color: black;
+    }
+    to{
+       left:500px ;
+       background-color: green;
+    }
+    
+}
+@keyframes m{
+    0%{
+        background-color: pink;
+        left:20px;
+    }
+    50%{
+        background-color: blue;
+        left:300px;
+    }
+    100%{
+        background-color: blueviolet;
+        left:700px;
+    }
+}

@@ -1,0 +1,39 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    color: white;
+    transition: all 3s ease-in;
+}  
+#one{
+    position: absolute;
+    top:200px;
+    left:200px;
+    transform: rotate(45deg);
+}
+#two {
+    position: absolute;
+    top:500px;
+    left:200px;
+    transform: scale(2); /*doubles the size of div*/
+    
+}
+#three{
+    position:absolute;
+    top:30px;
+    left:50px;
+}
+#one:hover{
+    transition: all 3s ease-in ;
+    transform: rotate(360deg);
+   /* transform: skew(70deg);*/
+}
+#two:hover{
+    transition: all 2s ease-in 1s;
+    transform: scale(1);
+    transform: translate(500px,-500px);
+}
+#three:hover{
+    transition: all 3s ease-in 1s;
+    transform: translatex(500px);
+}

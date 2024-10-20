@@ -1,0 +1,15 @@
+/*1. Create a heading center with all of its text  Capitalized by default */
+
+h1{
+    font-family:cursive;
+    font-size: large;
+    text-align: center;
+    text-decoration: dashed;
+    text-transform: capitalize;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}

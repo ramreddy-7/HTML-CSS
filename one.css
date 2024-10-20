@@ -1,0 +1,24 @@
+h1{
+    color:blue;
+}
+
+h2{
+    color:chartreuse;
+}
+p{
+    color:brown;
+}
+h4{
+   background-color:green;
+}
+
+button{
+    color:brown;
+    background-color:rgb(88,143,86);
+}
+body{
+  background-color: rgb(88,0,86);
+}
+h{
+    color: #ffff00;
+}

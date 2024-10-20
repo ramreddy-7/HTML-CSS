@@ -1,0 +1,26 @@
+*{
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+#amazon{
+    text-align: start;
+    text-decoration: none;
+    font-size: large;
+    color:orange; 
+}
+div{
+    height:40px;
+    width:1000px;
+    background-color: black;
+
+    border:10px solid green;
+
+    
+}
+button{
+    background-color: yellow;
+}
+a{
+    margin-right: 100px;
+}

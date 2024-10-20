@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width:1000px;
+    background-color: aqua;
+    background-image: url("drive.jpg.jpg");
+    background-size: cover;
+
+}
+/* body{ 
+    background-image: url("drive.jpg.jpg");
+    background-size: cover;
+}*/

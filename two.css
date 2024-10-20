@@ -1,0 +1,15 @@
+/* selectors in css */
+
+
+*{
+    color:red;      /*changes whole color of stylesheet*/
+}
+h1{
+    color:blue;    /*changes all "headings" with h1*/
+}
+#heading1{
+    color:green;    /*changes specific "id" color */
+}
+.head{
+    color:magenta;   /*changes all colours to magenta that assigned to head "class"*/
+}

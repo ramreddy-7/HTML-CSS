@@ -1,0 +1,10 @@
+/* Create a button and set it background color to 
+  1.Green using css stylesheet
+  2.red using <style>tag
+  3. pink using inline tag */
+
+button{
+    color:blue;
+    background-color: green;
+
+}

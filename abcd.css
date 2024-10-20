@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.navbar{
+    background-color: black;
+    height:60px;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width:113px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 113px;
+    background-size:cover;
+}
+.nav-icon{
+    display: flex;
+}
+.deliver{
+    font-size: 12px;
+    color:#cccccc;
+    margin-left: 12px;
+}
+.india{
+    font-size: 14px;
+    color:#ffffff;
+}
+.nav-search{
+    width:700px;
+    height:40px;
+    display: flex;
+    background-color: orange;
+    border-radius: 5px;
+}
+.select{
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+}
+.mag-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+.input{
+    width:100%
+}
+.text-one{
+     font-size: 12px;
+}
+.text-two{
+    font-size: 14px;
+    font-weight: 700;
+}
+.cart-icon i{
+    font-size: 30px;
+}
+.cart-icon{
+    font-weight: 700;
+}
+.panel{
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    height:40px;
+    font-size: 14px;
+    align-items: center;
+}
+.panel-menu{
+     margin-left: 15px;
+}
+.panel-bar p{
+    display: inline;
+    width:100%;
+    margin-left: 15px;
+}
+.backlogo{
+    width: 80%;
+    height: 400px;
+    background-image: url(amazon_backlogo.jpg);
+    background-size: cover;
+    margin-left:125px;
+}
+.box{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    height: 400px;
+    width:200px;
+    background-color: red;
+}
+.box2{
+    height: 400px;
+    width:200px;
+    background-color: blue;
+}
+.box3{
+    height: 400px;
+    width:200px;
+    background-color: green;
+}
+.box4{
+    height: 400px;
+    width:200px;
+    background-color: yellow;
+}
+.r{
+    height:400px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    border-top: 40px solid white;
+}
+.m{
+    height: 400px;
+    width:200px;
+    background-color: red;
+}
+.a{
+    height: 400px;
+    width:200px;
+    background-color: orange;
+}
+.n{
+
+    height: 400px;
+    width:200px;
+    background-color: pink;
+}
+.s{
+
+    height: 400px;
+    width:200px;
+    background-color: pink;
+}
